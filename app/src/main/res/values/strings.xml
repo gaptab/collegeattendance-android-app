@@ -1,0 +1,53 @@
+<resources>
+    <!--    General-->
+    <string name="app_name">College Attendance</string>
+    <string name="developer_name">Axisoft</string>
+    <string name="app_version_number">16.108</string>
+    <string name="time_table">Time Table</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+
+    <!--    Home Fragment-->
+    <string name="attendance">Attendance</string>
+    <string name="extra_class">"Extra Class"</string>
+    <string name="attended_class">Attended class</string>
+    <string name="bunked_class">Bunked class</string>
+    <string name="class_cancelled">Class cancelled</string>
+
+    <!--    Subject Row Item-->
+    <string name="attended_info_template">Attended: %1$s/%2$s</string>
+
+    <!-- Preference Titles -->
+    <string name="header_general">General</string>
+    <string name="header_subjects">Subjects</string>
+    <string name="header_database">Database</string>
+    <string name="header_about">About</string>
+
+    <!-- Sync Preferences -->
+    <string name="key_name">key_name</string>
+    <string name="key_attendance_criterion">key_attendance_criterion</string>
+    <string name="key_edit_subjects">key_edit_subjects</string>
+    <string name="key_vibration">key_vibration</string>
+    <string name="key_predict">key_predict</string>
+    <string name="key_reset_attendance">key_reset_attendance</string>
+    <string name="key_clear_database">key_clear_database</string>
+    <string name="key_backup">key_backup</string>
+    <string name="key_recover">key_recover</string>
+    <string name="key_rate_app">key_rate_app</string>
+    <string name="key_bug_report">key_bug_report</string>
+    <string name="key_share_app">key_share_app</string>
+    <string name="key_about">key_about</string>
+    <string name="key_notification">key_notification</string>
+    <string name="key_notification_time">key_notification_time</string>
+    <string name="key_developed_by">key_developed_by</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=krishna.college.attendance</string>
+    <string name="market_uri">market://details?id=krishna.college.attendance</string>
+
+    <!--    Edit Subject Activity-->
+    <string name="add_subject">Add subject</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="total_classes">Total Classes</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="add">Add</string>
+
+</resources>

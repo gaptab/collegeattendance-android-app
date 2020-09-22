@@ -1,0 +1,65 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- https://stackoverflow.com/a/19826738 -->
+        <!-- https://cyrilmottier.com/2013/01/23/android-app-launching-made-gorgeous/ -->
+        <!-- <item name="android:windowDisablePreview">true</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPinkPrimary</item>
+        <item name="titleTextStyle">@style/RubixFontStyle</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="tooltipStyle">@font/raleway</item>
+    </style>
+
+    <style name="AlertDialog.App.Theme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:textColor">@color/light_brown</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="fontFamily">@font/raleway_semibold</item>
+        <item name="android:textAppearanceSmall">@style/MyTextAppearance</item>
+    </style>
+
+    <style name="MaterialInputTextLayout.App.Theme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">@color/light_brown</item>
+    </style>
+
+    <style name="MaterialSlider.App.Theme" parent="Widget.MaterialComponents.Slider">
+        <item name="tickMark">@null</item>
+    </style>
+
+    <style name="RubixFontStyle" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="MyTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/raleway</item>
+    </style>
+
+    <style name="TabButton.App.Theme" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/raleway_semibold</item>
+        <item name="tooltipStyle">@font/raleway</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
